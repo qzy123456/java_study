@@ -26,14 +26,5 @@ public class Test {
          System.out.print(",");
       }
       System.out.print("\n");
-      String [][] names ={{"James":"11"}, {"Larry":"11"},{ "Tom":"21"},{ "Lacy"}};
-      for( String name : names ) {
-        for( String name1 : name ) {
-
-           System.out.print( name );
-           System.out.print(",");
-        }
-         System.out.print(",");
-      }
     }
 }

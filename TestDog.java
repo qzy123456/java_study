@@ -1,7 +1,7 @@
 public class TestDog{
     public static void main(String[] args) {
-      show(new Cat());  // 以 Cat 对象调用 show 方法
-      show(new Dog());  // 以 Dog 对象调用 show 方法
+      show(new Cat());  // 以 Cat 对象调用 show fangfa
+      show(new Dog());  // 以 Dog 对象调用 show fangfa
                 
       Animal a = new Cat();  // 向上转型  
       a.eat();               // 调用的是 Cat 的 eat
