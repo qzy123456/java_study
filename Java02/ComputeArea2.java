@@ -9,7 +9,11 @@ public class ComputeArea2 {  //定义类
 		 height = 10;
         area = wide * height;  //计算面积
 	    System.out.println("面积为:"  + area); //打印结果
-	       
+         int a = 10;
+		 int b = 2;
+		 double c;
+		 c  = a/b;
+		 System.out.println(c); //打印结果
 	  }	
 	 
 }
