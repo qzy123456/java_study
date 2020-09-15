@@ -1,25 +1,29 @@
-import java.util.*;       //µ¼ÈëJavaÀà°ü
+import java.util.*;
 public class InputSample {
     public static void main(String[] args) {
-    	 //ÊäÈëĞÕÃûĞÅÏ¢
-        String name;
-        System.out.println("ÇëÊäÈëĞÕÃû");
-        Scanner reader2=new Scanner(System.in);
-        name=reader2.next(); 
-    	
-    	//ÊäÈëÄêÁäĞÅÏ¢
-       	 int age;    
-       	 double height;
-         Scanner reader=new Scanner(System.in);
-         System.out.println("ÇëÊäÈëÄêÁä");
+        String name;   //åå­—
+        int studentNumbe; //å­¦å·
+        int age;          //å¹´çºª
+        double height;    //èº«é«˜
+        String sex;     //æ€§åˆ«
+        Scanner reader =new Scanner(System.in);
+
+        System.out.println("è¯·è¾“å…¥åå­—");
+        name=reader.next();
+
+        System.out.println("è¯·è¾“å…¥å­¦å·");
+        studentNumbe=reader.nextInt();
+
+         System.out.println("è¯·è¾“å…¥å¹´é¾„ï¼š");
          age=reader.nextInt();
-         
-         //ÊäÈëÉí¸ßĞÅÏ¢
-         System.out.println("ÇëÊäÈëÄêÁä");
+
+        System.out.println("è¯·è¾“å…¥èº«é«˜ï¼š");
          height=reader.nextDouble();
-                  
+
+        System.out.println("è¯·è¾“å…¥æ€§åˆ«ï¼š");
+        sex=reader.next();
          
-         System.out.println("ĞÕÃû£º"+name+"ÄêÁä£º"+age+"Éí¸ß£º"+height);
+         System.out.println("åå­—ï¼š"+name+"å­¦å·ï¼š"+studentNumbe+"èº«é«˜ï¼š"+height + "æ€§åˆ«ï¼š"+sex + "å¹´é¾„ï¼š" + age);
          
     }
 }
