@@ -9,7 +9,7 @@ class Person{
 		this.age=age;
 	}
 	
-	protected void show(){  //����Person���show��������
+	protected void show(){  //����Persons���show��������
 		System.out.println("����:"+name+"���䣺"+age);
 	}
 }

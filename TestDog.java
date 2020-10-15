@@ -3,13 +3,13 @@ public class TestDog{
       show(new Cat());  // 以 Cat 对象调用 show fangfa
       show(new Dog());  // 以 Dog 对象调用 show fangfa
                 
-      Animal a = new Cat();  // 向上转型  
+      Animals a = new Cat();  // 向上转型
       a.eat();               // 调用的是 Cat 的 eat
       Cat c = (Cat)a;        // 向下转型  
       c.work();        // 调用的是 Cat 的 work
   }  
             
-    public static void show(Animal a)  {
+    public static void show(Animals a)  {
       a.eat();  
         // 类型判断
         if (a instanceof Cat)  {  // 猫做的事情 
@@ -22,11 +22,11 @@ public class TestDog{
     }  
 }
  
-abstract class Animal {  
+abstract class Animals {
     abstract void eat();  
 }  
   
-class Cat extends Animal {  
+class Cat extends Animals {
     public void eat() {  
         System.out.println("吃鱼");  
     }  
@@ -35,7 +35,7 @@ class Cat extends Animal {
     }  
 }  
   
-class Dog extends Animal {  
+class Dog extends Animals {
     public void eat() {  
         System.out.println("吃骨头");  
     }  

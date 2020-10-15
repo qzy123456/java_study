@@ -1,10 +1,10 @@
-public class Person {
+public class Persons {
     static class App {
         public String name;
         private int age;
 
         public App() {
-            System.out.println("Person（）方法被调用");
+            System.out.println("Persons（）方法被调用");
         }
 
         public App(String name) {

@@ -9,10 +9,10 @@ class Person{
 	public Person(String name, int age){      //������2�������Ĺ��췽��
 		this.name=name;
 		this.age=age;
-		System.out.println("�����˸����๹�췽��Person(String name, int age)");
+		System.out.println("�����˸����๹�췽��Persons(String name, int age)");
 	}
 	
-	protected void show(){  //����Person���show��������
+	protected void show(){  //����Persons���show��������
 		System.out.println("����:"+name+"���䣺"+age);
 	}
 }

@@ -4,7 +4,7 @@ class Person{
 	private String name;  //����˽������name
 	private int age;      //����˽������age
 	public Person(){      //�����޲����Ĺ��췽��
-		System.out.println("�����˸����๹�췽��Person()");
+		System.out.println("�����˸����๹�췽��Persons()");
 	}
 	public void setNameAge(String name, int age){ //����setNameAge��������
 		this.name=name;

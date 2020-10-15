@@ -1,12 +1,13 @@
+package Java08.示例程序08章11接口定义及使用;
 
 interface Achievement{
     abstract float average();
 }
 
-class Person{
+class Personss{
     String name;
      int age;
-     public Person(String name,int age){
+     public Personss(String name,int age){
          this.name  = name;
          this.age = age;
      }
@@ -14,7 +15,7 @@ class Person{
          System.out.println("您好，我是 "+name+" ，今年 " + age + "岁");
      }
 }
-class Student extends Person implements Achievement{
+class Student extends Personss implements Achievement{
     int Chinese;
     int Math;
     int English;

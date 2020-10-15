@@ -1,14 +1,15 @@
+package Java08.示例程序08章03person3super使用;
 
-class Person{
+class Personss{
 	protected String name;  //���ñ�������name
 	protected int age;      //���ñ�������age
-	public Person(){      //�����޲����Ĺ��췽��
+	public Personss(){      //�����޲����Ĺ��췽��
 			}
 	
-	public Person(String name, int age){      //�����޲����Ĺ��췽��
+	public Personss(String name, int age){      //�����޲����Ĺ��췽��
 		this.name=name;
 		this.age=age;
-		System.out.println("�����˸����๹�췽��Person(String name, int age)");
+		System.out.println("�����˸����๹�췽��Persons(String name, int age)");
 	}
 	
 	public void show(){  //����show��������
@@ -16,11 +17,11 @@ class Person{
 	}
 }
 //��������Student
-class Student extends Person{
+class Students extends Personss {
 	private String department; //����˽������departmen
 	int age=20;  //�����һ���븸��ĳ�Ա��ͬ����age�ĳɻ�Ա����
 		
-	public Student(String xm, String dep){ //������2�������Ĺ��췽��
+	public Students(String xm, String dep){ //������2�������Ĺ��췽��
 		name=xm;
 		department=dep;
 		super.age=25;  
@@ -34,7 +35,7 @@ class Student extends Person{
 //�����������Ĺ�����
 public class App8_3 {
 	public static void main(String[] args) {
-	Student stu=new Student("�Ŷ�", "�����ϵ");  //����Student���һ��ʵ��stu
+	Students stu=new Students("�Ŷ�", "�����ϵ");  //����Student���һ��ʵ��stu
 					
 	}
 

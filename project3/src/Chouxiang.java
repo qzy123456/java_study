@@ -1,10 +1,10 @@
-abstract class Shape {
+abstract class Shapes {
     public abstract double Area();
 
     public abstract void printArea();
 }
 
- class Rectangle extends Shape {
+ class Rectangle extends Shapes {
     public double weight;
     public double heiht;
     public double area;
@@ -27,7 +27,7 @@ abstract class Shape {
     }
 }
 
- class Circle extends Shape {
+ class Circle extends Shapes {
     static final double pi = 3.14;
     public double area;
     public double radius;

@@ -4,13 +4,13 @@ class Person{
 	private String name;  //����˽������name
 	private int age;      //����˽������age
 	public Person(){      //�����޲����Ĺ��췽��
-		System.out.println("������Person�๹�췽��Person()");
+		System.out.println("������Persons�๹�췽��Persons()");
 	}
 	
 	public Person(String name, int age){      //�����޲����Ĺ��췽��
 		this.name=name;
 		this.age=age;
-		System.out.println("�����˸����๹�췽��Person(String name, int age)");
+		System.out.println("�����˸����๹�췽��Persons(String name, int age)");
 	}
 	
 	public void setNameAge(String name, int age){ //����setNameAge��������
