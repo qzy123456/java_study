@@ -1,8 +1,10 @@
 package com.com.models.aa;
 
+import src.com.aa.Business;
+
 import java.rmi.RemoteException;
 
-public class businessImpl implements Business{
+public class businessImpl implements Business {
 
     @Override
     public String echo(String msg) throws RemoteException {
