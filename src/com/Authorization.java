@@ -17,9 +17,9 @@ import javax.crypto.spec.SecretKeySpec;
 public class Authorization {
 
     public static void main(String[] args) throws IOException {
-        String client_id = "11212";
-        String kid = "2121221"; // 登录信息中的 kid 字段
-        String mac_key = "212111";  // 登录信息中的 mac_key 字段
+        String client_id = "BIEZXb7baKJI2ub3oc";
+        String kid = "BIEZXb7baKJI2ub3oc"; // 登录信息中的 kid 字段
+        String mac_key = "hw1PT3g30vKMbej1oXHWsEjJW59RaQNgkkKSMBj5";  // 登录信息中的 mac_key 字段
 
         String method = "GET"; // GET or POST
         String request_url = "https://openapi.taptap.com/account/profile/v1?client_id=" + client_id; // 请求地址
